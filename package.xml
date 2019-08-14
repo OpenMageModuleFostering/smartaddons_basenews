@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>smartaddons_basenews</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A must have extension of Magento</summary>
+    <description>New design, More features, Store Offline </description>
+    <notes>test more than 100 hours</notes>
+    <authors><author><name>SmartAddons</name><user>smartaddons</user><email>marketing@ytcvn.com</email></author></authors>
+    <date>2013-08-17</date>
+    <time>02:05:48</time>
+    <contents><target name="magelocal"><dir name="Sm"><dir name="Basenews"><dir name="Block"><file name="List.php" hash="c40fe1e3ae0e4e391df955736428ecef"/></dir><dir name="Helper"><file name="Data.php" hash="d50c92607371555d1a6f2ad8e71ec8e7"/><file name="Utils.php" hash="13fcb6756f593903e51b09343b907751"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="LinkTargets.php" hash="ffed857b49dbc5060da1de38e5ecdecf"/><file name="ListCategory.php" hash="91481b70fd72aed013301cc98e301ca1"/><file name="ListColumn.php" hash="e6cc8b1ea71d80425e1611497c860386"/><file name="ListEven.php" hash="12af6d60ef8fb1fa769fb8169b75965e"/><file name="ListTheme.php" hash="88d7b4da5b4d40f083e26774795bb641"/><file name="OrderBy.php" hash="91c1a384a07c685a5fe0d731a60dea40"/><file name="OrderDirection.php" hash="b96dd091f9739a527d866bf308dbb5a6"/><file name="ProductSources.php" hash="413775e713378a16dc9ba4077b0f9a07"/></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="b497a9876028488bc6300be13c1310ab"/></dir><dir name="etc"><file name="config.xml" hash="92996654b9701848ba651f55f30241aa"/><file name="system.xml" hash="f72ee5280c352674cdcd7c42853cd06c"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><dir name="sm"><file name="basenews.xml" hash="10cfcd124210df0ef439c341d6212fbc"/></dir></dir><dir name="template"><dir name="sm"><dir name="basenews"><file name="default.phtml" hash="91a561ff5507e7bdf16a9a5661147f8b"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="sm"><dir name="basenews"><dir name="css"><file name="sm-basenews.css" hash="63102bed01f1a6b72d4aa8243c0a61f0"/></dir><dir name="images"><file name="arrow_closed.png" hash="b179c9475b4428863406c32861d94e10"/><file name="arrow_down.png" hash="3bf8e5f37ee459bd248233b34648247c"/><file name="arrow_open.png" hash="8746ee9aac9bd2188c813073eb883dbf"/><file name="arrow_up.png" hash="631a68aa6b2d44521fb3d80c5a36efdb"/></dir><dir name="js"><file name="index.html" hash="1c7b413c3fa39d0fed40556d2658ac73"/><file name="jquery-1.8.2.min.js" hash="cfa9051cc0b05eb519f1e16b2a6645d7"/><file name="jquery-noconflict.js" hash="3179f2255b046d5f2e9a71e365287bef"/><file name="jquery.sm_accordion.js" hash="654f95a72952fba60558d4b5ff5abaf5"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sm_Basenews.xml" hash="07c600eda019e366d337c708770a15ef"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
